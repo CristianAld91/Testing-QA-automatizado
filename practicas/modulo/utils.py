@@ -5,6 +5,7 @@ def pedir_opcion():
     print("resta: ingrese 2")
     print("multiplicación: ingrese 3")
     print("división: ingrese 4")
+    print("salir: ingrese 5")
 
     opcion = input("Ingrese la opción: \n")
 
@@ -12,7 +13,8 @@ def pedir_opcion():
         "1": "suma", 
         "2": "resta", 
         "3": "multiplicación", 
-        "4": "división"
+        "4": "división",
+        "5": "salir"
     }
 
     try:
